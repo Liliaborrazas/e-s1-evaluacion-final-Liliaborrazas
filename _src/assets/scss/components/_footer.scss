@@ -2,7 +2,7 @@
   width: 320px;
   height: 128px;
   background-color: $color-blue;
-  position: relative;
+  
 }
 .footer--arrow{
     width: 45px;
@@ -34,4 +34,8 @@
     margin-bottom: 30px;
     margin-left: 15px;
     text-align: center;
+ }
+
+ .heart{
+    color: $color-orange;
  }
