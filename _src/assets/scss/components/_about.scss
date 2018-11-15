@@ -1,9 +1,17 @@
-.about {
+.about--container {
+    margin-top: 0px;
     width: 320px;
     height: 376px;
     background-color: $color-white;
   }
+  
   .about--tips{
+      color: $color-celeste;
+      font-family: Roboto-Regular;
+      height: 30px;
+      width: 90px;
+      background: red;
+      font-size: 14px;
 
   }
   .about--title{
@@ -13,6 +21,6 @@
 
   }
  .about--btn{
-     
+
  } 
 
