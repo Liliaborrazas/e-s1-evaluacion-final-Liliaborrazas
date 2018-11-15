@@ -2,14 +2,70 @@
     width: 320px;
     height: 624px;
     background-color: #eff9ff;
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+       
 }
-.wrapper{
+
+.grid--container__title{
+    width: 290px;
+    height: 30px;
+    background: red;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+
 }
 .grid--title{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0px;
+    padding: 0px;
     
-}    
+    
+}  
+.list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+.list--elem{
+    grid-row-start: 2;
+    grid-row-end: 3;
 
+
+
+} 
+.list--title{
+    width: 184px;
+    height: 30;
+    background: pink;
+    margin-left: 68px;
+    margin-right: 68px;
+
+} 
+.list--p{
+    background: purple;
+    width: 180px;
+    height: 63;
+    margin-left: 70px;
+    margin-right: 70px;
+
+
+}
+.list--elem2{
+    grid-row-start: 3;
+    grid-row-end: 4;
+     
+} 
+.list--elem3{
+    grid-row-start: 4;
+    grid-row-end: 4;
+}   
 .btn{
     width: 124px;
     height: 45px;
@@ -22,7 +78,6 @@
     letter-spacing: normal;
     color: $color-white;
       
-
 }
 .grid--btn{
     width: 184px;
@@ -33,28 +88,3 @@
     margin-right: 68px;
     text-align: center;
 }
-.list{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-.list--elem{
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-
-
-}  
-.list--elem2{
-    grid-row-start: 2;
-    grid-row-end: 3;
-     
-} 
-.list--elem3{
-    grid-row-start: 3;
-    grid-row-end: 3;
-} 
