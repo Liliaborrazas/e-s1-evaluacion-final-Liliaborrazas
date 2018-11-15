@@ -1,13 +1,15 @@
-.wrapper{
+.grid{
     width: 320px;
     height: 624px;
     background-color: #eff9ff;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-
     
 }
+.wrapper{
+}
+.grid--title{
+    
+}    
+
 .btn{
     width: 124px;
     height: 45px;
@@ -35,6 +37,24 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
-    
-
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
+.list--elem{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+
+
+}  
+.list--elem2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+     
+} 
+.list--elem3{
+    grid-row-start: 3;
+    grid-row-end: 3;
+} 
