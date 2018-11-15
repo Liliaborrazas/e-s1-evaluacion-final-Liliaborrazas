@@ -24,6 +24,10 @@
     grid-row-end: 2;
     margin: 0px;
     padding: 0px;
+    color: $color-black;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
     
     
 }  
@@ -46,16 +50,40 @@
     background: pink;
     margin-left: 68px;
     margin-right: 68px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: $color-black;
+    font-family: RobotoSlab;
+    font-size: 18px;    
+    text-align: center;
+    line-height: 30px;
 
 } 
+.list--container{
+    background: green;
+
+}
 .list--p{
     background: purple;
     width: 180px;
     height: 63;
     margin-left: 70px;
     margin-right: 70px;
+    margin-top: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: $color-black;
 
+.p__list{
+    margin: 0px;
 
+}
+.pepe__list{
+    margin: 0px;
+    padding: 0px;
+}
 }
 .list--elem2{
     grid-row-start: 3;
