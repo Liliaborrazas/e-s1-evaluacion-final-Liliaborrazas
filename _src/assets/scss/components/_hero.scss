@@ -27,21 +27,26 @@
     height: 21px;
     width: 290px;
     color: white;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
     
 }
 .title{
     color: white;
     font-family: RobotoSlab ;
     text-transform: uppercase;
+    text-align: center;
     font-size: 42px;
     margin: 0px;
     padding: 0px; 
+    
        
 }
 .hero--arrow{
     width: 45px;
     height: 45px;
-    background: yellow;
     border-radius: 22.5px;
     background-color: white;
     display: flex;
@@ -49,6 +54,8 @@
     align-items: center;
     margin-left: 138px;
     margin-right: 137px;
+    margin-top: 45px;
+
 }
 
 
