@@ -1,0 +1,35 @@
+.grid{
+    width: 320px;
+    height: 624px;
+    background-color: #eff9ff;
+    display: grid;
+}
+.btn{
+    width: 124px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: $color-white;
+      
+
+}
+.grid--btn{
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: #f26002;
+    margin-left: 68px;
+    margin-right: 68px;
+    text-align: center;
+}
+.list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
