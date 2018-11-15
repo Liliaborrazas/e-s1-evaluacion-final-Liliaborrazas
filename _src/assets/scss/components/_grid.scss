@@ -108,6 +108,11 @@
     line-height: 20px;
     letter-spacing: normal;
     color: $color-white;
+    transition: color ease .5s;
+    &:hover {
+        font-size: 20px;
+        color: $color-black;
+        }
       
 }
 .grid--btn{
