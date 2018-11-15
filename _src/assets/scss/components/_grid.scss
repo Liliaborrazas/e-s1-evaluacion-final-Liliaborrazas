@@ -5,7 +5,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    // grid-gap: 10px;
     padding: 0px;
     margin-bottom: 0px;
        
@@ -14,16 +13,16 @@
 .grid--container__title{
     width: 290px;
     height: 30px;
-    background: red;
+    // background: red;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 30px;
-    margin-bottom: 45px;
+    
 
 }
 .grid--title{
-    grid-row-start: 1;
-    grid-row-end: 2;
+    // grid-row-start: 1;
+    // grid-row-end: 2;
     margin: 0px;
     padding: 0px;
     color: $color-black;
@@ -39,17 +38,27 @@
     list-style: none;
     
 }
-.list--elem{
-    grid-row-start: 2;
-    grid-row-end: 3;
+h3{
+    margin: 0px;
+    padding: 0px;
+}
 
+ .list--elem{
+    margin-top: 45px;
+    margin-bottom: 45px;
 
-
+ } 
+ .list--elem2{
+    margin-bottom: 45px;
+     
 } 
+.list--elem3{
+    // margin-bottom: 45px;
+}   
 .list--title{
     width: 184px;
     height: 30;
-    background: pink;
+    // background: pink;
     margin-left: 68px;
     margin-right: 68px;
     margin-bottom: 0px;
@@ -62,12 +71,13 @@
 
 } 
 .list--container{
-    background: green;
+    // background: green;
     padding: 0px;
+    
 
 }
 .list--p{
-    background: purple;
+    // background: purple;
     width: 180px;
     height: 63;
     margin-left: 70px;
@@ -78,25 +88,13 @@
     line-height: 30px;
     text-align: center;
     color: $color-black;
+}
 
 .p__list{
     margin: 0px;
 
 }
-.pepe__list{
-    margin: 0px;
-    padding: 0px;
-}
-}
-.list--elem2{
-    grid-row-start: 3;
-    grid-row-end: 4;
-     
-} 
-.list--elem3{
-    grid-row-start: 4;
-    grid-row-end: 4;
-}   
+
 .btn{
     width: 124px;
     height: 45px;
@@ -130,4 +128,7 @@
         background-color:yellowgreen;
         }
       
+}
+.list--elem{
+   
 }
