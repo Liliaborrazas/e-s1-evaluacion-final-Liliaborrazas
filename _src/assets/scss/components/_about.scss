@@ -1,26 +1,75 @@
 .about--container {
-    margin-top: 0px;
     width: 320px;
     height: 376px;
     background-color: $color-white;
   }
   
   .about--tips{
-      color: $color-celeste;
-      font-family: Roboto-Regular;
-      height: 30px;
       width: 90px;
-      background: red;
+      height: 30px;
+      font-family: Roboto-Regular;
       font-size: 14px;
-
+      color: $color-celeste;
+      line-height: 30px;
+      margin-top: 30px;
+      margin-left: 15px;
+      margin-right: 215px;
   }
+ 
   .about--title{
+    width: 290px;
+    height: 60px;
+    font-family: RobotoSlab;
+    font-size: 18px;
+    color: $color-black;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    background: yellow;
+    margin-top: 1px;
 
   }
+  .about--looking{
+      margin: 0px;
+      padding: 0px;
+  }
+
   .about--text{
+      width: 290px;
+      height: 120px;
+      background: red;
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 30px;
+      //color//
 
   }
+ 
+
  .about--btn{
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
 
  } 
+ .btn--go{
+    width: 25px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f26002;
+    margin-left: 26px;
+    margin-right: 25px;
+
+
+ }
 
