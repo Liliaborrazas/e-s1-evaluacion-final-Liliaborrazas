@@ -1,9 +1,11 @@
 .header{
-    margin: 0px;    
+    margin: 0px;   
+    position: relative; 
 }
 .container{
     margin: 0;
-    position: fixed;
+    position: absolute;
+    // position: fixed;
     margin-top: 0px;   
 }
 .container--logo{
