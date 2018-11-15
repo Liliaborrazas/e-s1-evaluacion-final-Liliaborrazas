@@ -7,13 +7,9 @@
     padding: 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
     
  }
-// .container--hero{
-//     display: flex;
-//     justify-content: center;
-
-// }
 
 .hero--title{
     padding: 0px;
@@ -22,7 +18,7 @@
     margin-top: 284px;
     margin-left: 14px;
     margin-right: 14px;
-    background: red;
+   
        
 }
 .hero--text{
@@ -35,10 +31,20 @@
 }
 .title{
     color: white;
-    font-family: $font-family;
+    font-family: RobotoSlab ;
     text-transform: uppercase;
     font-size: 42px;
     margin: 0px;
     padding: 0px; 
        
+}
+.hero--arrow{
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    border-radius: 22.5px;
+    background-color: white;
+}
+.arrow-down{
+
 }
