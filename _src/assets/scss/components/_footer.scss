@@ -1,0 +1,37 @@
+.footer{
+  width: 320px;
+  height: 128px;
+  background-color: $color-blue;
+  position: relative;
+}
+.footer--arrow{
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 138px;
+    margin-right: 137px;
+    margin-top: 45px;
+    
+}
+.footer--copy{
+    height: 30px;
+    width: 77px;
+    font-size: 14px;
+    color: $color-white;
+    margin-left: 121px;
+    text-align: center;
+    
+}
+.footer--text{
+    height: 30px;
+    width: 290px;
+    font-size: 14px;
+    color: $color-white;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    text-align: center;
+ }

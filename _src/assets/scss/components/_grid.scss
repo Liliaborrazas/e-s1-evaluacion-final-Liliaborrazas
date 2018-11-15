@@ -1,8 +1,12 @@
-.grid{
+.wrapper{
     width: 320px;
     height: 624px;
     background-color: #eff9ff;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    
 }
 .btn{
     width: 124px;
@@ -22,7 +26,7 @@
     width: 184px;
     height: 45px;
     border-radius: 22.5px;
-    background-color: #f26002;
+    background-color: $color-orange;
     margin-left: 68px;
     margin-right: 68px;
     text-align: center;
@@ -31,5 +35,6 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+    
 
 }
