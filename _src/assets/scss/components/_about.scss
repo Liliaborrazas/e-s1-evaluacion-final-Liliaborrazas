@@ -27,8 +27,9 @@
     font-stretch: normal;
     line-height: 30px;
     letter-spacing: normal;
-    background: yellow;
     margin-top: 1px;
+    padding-left: 15px;
+
 
   }
   .about--looking{
@@ -39,10 +40,10 @@
   .about--text{
       width: 290px;
       height: 120px;
-      background: red;
       font-family: Roboto;
       font-size: 18px;
       line-height: 30px;
+      margin-left: 15px;
       //color//
 
   }
@@ -53,6 +54,9 @@
     height: 45px;
     border-radius: 22.5px;
     border: solid 2px #f26002;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 45px;
 
  } 
  .btn--go{
@@ -63,12 +67,12 @@
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2.25;
+    line-height: 45px;
     letter-spacing: normal;
     text-align: center;
     color: #f26002;
-    margin-left: 26px;
-    margin-right: 25px;
+    padding-left: 26px;
+    padding-right: 25px;
 
 
  }
