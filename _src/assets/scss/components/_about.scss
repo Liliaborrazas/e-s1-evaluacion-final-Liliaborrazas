@@ -1,0 +1,79 @@
+.about--container {
+    width: 320px;
+    height: 376px;
+    background-color: $color-white;
+  }
+  
+  .about--tips{
+      width: 90px;
+      height: 30px;
+      font-family: Roboto-Regular;
+      font-size: 14px;
+      color: $color-celeste;
+      line-height: 30px;
+      margin-top: 30px;
+      margin-left: 15px;
+      margin-right: 215px;
+  }
+ 
+  .about--title{
+    width: 290px;
+    height: 60px;
+    font-family: RobotoSlab;
+    font-size: 18px;
+    color: $color-black;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    margin-top: 1px;
+    padding-left: 15px;
+
+
+  }
+  .about--looking{
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .about--text{
+      width: 290px;
+      height: 120px;
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 30px;
+      margin-left: 15px;
+      //color//
+
+  }
+ 
+
+ .about--btn{
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+
+ } 
+ .btn--go{
+    width: 25px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 45px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f26002;
+    padding-left: 26px;
+    padding-right: 25px;
+
+
+ }
+
