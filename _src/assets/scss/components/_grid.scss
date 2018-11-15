@@ -4,8 +4,10 @@
     background-color: #eff9ff;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    // grid-gap: 10px;
+    padding: 0px;
+    margin-bottom: 0px;
        
 }
 
@@ -61,6 +63,7 @@
 } 
 .list--container{
     background: green;
+    padding: 0px;
 
 }
 .list--p{
@@ -115,4 +118,6 @@
     margin-left: 68px;
     margin-right: 68px;
     text-align: center;
+    margin-top: 45px;
+    margin-bottom: 60px;
 }
