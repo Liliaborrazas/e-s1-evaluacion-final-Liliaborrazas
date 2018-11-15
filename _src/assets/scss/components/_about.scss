@@ -53,10 +53,17 @@
     width: 76px;
     height: 45px;
     border-radius: 22.5px;
-    border: solid 2px #f26002;
+    border: solid 2px $color-orange;
     margin-left: 15px;
     margin-top: 30px;
     margin-bottom: 45px;
+    transition: color ease .5s;
+    &:hover {
+        background-color: blue;
+        border: solid 10px black;
+
+        }
+      
 
  } 
  .btn--go{

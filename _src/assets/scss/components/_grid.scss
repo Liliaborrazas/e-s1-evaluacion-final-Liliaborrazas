@@ -120,4 +120,9 @@
     text-align: center;
     margin-top: 45px;
     margin-bottom: 60px;
+    transition: color ease .5s;
+    &:hover {
+        background-color:yellowgreen;
+        }
+      
 }
