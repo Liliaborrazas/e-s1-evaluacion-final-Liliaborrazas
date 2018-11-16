@@ -1,11 +1,13 @@
 .about--container {
     height: 376px;
     background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .about--tips{
-      width: 90px;
-      height: 30px;
       font-family: Roboto-Regular;
       font-size: 14px;
       color: $color-celeste;

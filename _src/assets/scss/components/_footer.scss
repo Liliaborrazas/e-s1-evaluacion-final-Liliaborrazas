@@ -1,11 +1,15 @@
 .footer{
-  margin: 0px;
+//   margin:0 auto;
   padding: 0px;   
   height: 128px;
   background-color: $color-blue;
   position: relative;
   padding-top: 38px;
   padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
   
 }
 .footer--arrow{
@@ -30,7 +34,6 @@
     width: 77px;
     font-size: 14px;
     color: $color-white;
-    margin-left: 121px;
     margin-top: 15px;
     text-align: center;
 
