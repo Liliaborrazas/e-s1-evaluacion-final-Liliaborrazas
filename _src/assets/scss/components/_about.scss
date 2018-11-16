@@ -15,6 +15,7 @@
       margin-top: 30px;
       margin-left: 15px;
       margin-right: 215px;
+      
   }
  
   .about--title{
@@ -45,7 +46,8 @@
       font-size: 18px;
       line-height: 30px;
       margin-left: 15px;
-      //color//
+      color: $color-grey;
+      
 
   }
  
@@ -60,8 +62,8 @@
     margin-bottom: 45px;
     transition: color ease .5s;
     &:hover {
-        background-color: blue;
-        border: solid 8px black;
+        background-color: $color-blue;
+        border: solid 8px $color-black;
 
         }
       
@@ -78,7 +80,7 @@
     line-height: 45px;
     letter-spacing: normal;
     text-align: center;
-    color: #f26002;
+    color: $color-orange;
     padding-left: 26px;
     padding-right: 25px;
     transition: color ease .5s;
@@ -90,7 +92,27 @@
 
 
         }
-
+ }
+ //Medias
+ @media all and (min-width: 768px){
+    .about--title{
+        width: 690px;
+        height: 45px;
+        font-size: 26px;
+        line-height: 45px;
+    
+      }
+      .about--tips{
+        margin-left: 39px;
+        margin-right: 630px;
+    }
+    .about--text{
+        width: 690px;
+        height: 60px;
+        font-family: Roboto;
+        font-size: 20px;
+        line-height: 30px;
+        color: $color-grey;
+    }
 
  }
-
