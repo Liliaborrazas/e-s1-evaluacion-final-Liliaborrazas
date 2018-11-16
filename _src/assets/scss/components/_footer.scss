@@ -1,9 +1,11 @@
 .footer{
   margin: 0px;
   padding: 0px;   
-  width: 320px;
   height: 128px;
   background-color: $color-blue;
+  position: relative;
+  padding-top: 38px;
+  padding-bottom: 60px;
   
 }
 .footer--arrow{
@@ -14,10 +16,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 138px;
-    margin-right: 137px;
-    margin-top: 45px;
+    // margin-left: 138px;
+    // margin-right: 137px;
+    // margin-top: 45px;
     margin-top: 0px;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    left: 50vw;
+
+    
     
 }
 .footer--copy{
@@ -27,6 +35,7 @@
     color: $color-white;
     margin-left: 121px;
     text-align: center;
+
     
 }
 .footer--text{
