@@ -89,5 +89,30 @@
     
 
 }
-
-
+//medias web
+@media all and (min-width: 1200px){
+    .hero--title{
+        width: 730px;
+        height: 264px;
+    }
+    .title{
+        font-size: 100px;  
+        margin-left: 275px;
+        text-align: center;
+            
+    }
+    .hero--text{
+        
+        width: 730px;
+        margin-left: 275px;
+        margin-right: 275px;
+        text-align: center;
+                   
+        }
+        .hero--arrow{
+        margin-left: 618px;
+        margin-right: 617px;
+        margin-top: 13px;
+        
+        }
+}
