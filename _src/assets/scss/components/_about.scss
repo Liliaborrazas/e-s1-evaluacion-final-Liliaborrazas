@@ -139,30 +139,16 @@
          width: 1280px;
      }
     .about--title{
-        
-         font-size: 32px;
-
-    
+        font-size: 32px;
+        padding: -1;
+         
       }
-      .about--tips{
-        // margin-left: 275px;
-        // margin-right: 645px;
-    }
-    .about--text{
-        width: 690px;
-        height: 60px;
-        font-family: Roboto;
-        font-size: 20px;
-        line-height: 30px;
-        color: $color-grey;
-    }
     .about--btn{
-        width: 91px;
-        height: 45px;
-        margin-left: 39px;
-        margin-right: 638px;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        width: 160px;
+        margin-left: 275px;
+        margin-right: 800px;
+        margin-top: 30px;
+        text-align: center;
         transition: color ease .5s;
         &:hover {
             background-color: $color-yellow;

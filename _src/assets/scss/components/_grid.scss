@@ -168,6 +168,25 @@ h3{
         margin-right: 0px;
         height: 63;
         font-size: 20px;
+        line-height: 30px;
     }
 }
 
+//MEDIAS WEB
+
+@media all and (min-width: 1200px){
+    .grid{
+        width: 1280px;
+    }
+    .grid--title{
+        font-size: 32px;
+        margin-top: 0px;
+      }
+    .list--p{
+        height: 68px;
+    }
+      
+    
+    
+    }
+      
