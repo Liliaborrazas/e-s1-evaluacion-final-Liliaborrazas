@@ -135,16 +135,18 @@
 //MEDIAS WEB
 
  @media all and (min-width: 1200px){
+     .about{
+         width: 1280px;
+     }
     .about--title{
-        width: 690px;
-        height: 45px;
-        font-size: 26px;
-        line-height: 45px;
+        
+         font-size: 32px;
+
     
       }
       .about--tips{
-        margin-left: 39px;
-        margin-right: 630px;
+        // margin-left: 275px;
+        // margin-right: 645px;
     }
     .about--text{
         width: 690px;
