@@ -65,12 +65,9 @@
         justify-content: center;
         align-items: center;
         width: 690px;  
-        // margin-left: 39px;
-        // margin-right: 39px; 
     }
     .hero--title{
        width: 690px;   
-    
      }
     .title{
         font-size: 80px;       
@@ -82,30 +79,14 @@
         margin-top: 20px;
     
     }
-    .hero--arrow{
-        
-        
     
-    }
     
 
 }
 //medias web
 @media all and (min-width: 1200px){
-    
-    .hero--title{
-        // width: 730px;
-        // height: 264px;
-        }
+  
      .title{
-        font-size: 100px;   
-            
+        font-size: 100px;           
     }
-    
-        .hero--arrow{
-        // margin-left: 343px;
-        // margin-right: 342px;
-        // margin-bottom: 120px;
-        
-        }
 }

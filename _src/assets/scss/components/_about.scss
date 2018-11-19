@@ -1,10 +1,11 @@
 .about--container {
-    height: 376px;
+    //height: 376px;
     background-color: $color-white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
   }
   
   .about--tips{
@@ -12,15 +13,15 @@
       font-size: 14px;
       color: $color-celeste;
       line-height: 30px;
-      margin-top: 30px;
-      margin-left: 15px;
-      margin-right: 215px;
+    //   margin-top: 30px;
+    //   margin-left: 15px;
+    //   margin-right: 215px;
       
   }
  
   .about--title{
-    width: 290px;
-    height: 60px;
+    // width: 290px;
+    // height: 60px;
     font-family: RobotoSlab;
     font-size: 18px;
     color: $color-black;
@@ -29,8 +30,8 @@
     font-stretch: normal;
     line-height: 30px;
     letter-spacing: normal;
-    margin-top: 1px;
-    padding-left: 15px;
+    // margin-top: 1px;
+    // padding-left: 15px;
 
 
   }
@@ -40,12 +41,12 @@
   }
 
   .about--text{
-      width: 290px;
-      height: 120px;
+    //   width: 290px;
+    //   height: 120px;
       font-family: Roboto;
       font-size: 18px;
       line-height: 30px;
-      margin-left: 15px;
+    //   margin-left: 15px;
       color: $color-grey;
       
 
@@ -57,8 +58,8 @@
     height: 45px;
     border-radius: 22.5px;
     border: solid 2px $color-orange;
-    margin-left: 15px;
-    margin-top: 30px;
+    // margin-left: 15px;
+    // margin-top: 30px;
     margin-bottom: 45px;
     transition: color ease .5s;
     &:hover {
@@ -95,30 +96,34 @@
  }
  //Medias
  @media all and (min-width: 768px){
+     .about--container{
+        margin-left: 39px;
+        margin-right: 39px;
+     }
     .about--title{
-        width: 690px;
-        height: 45px;
+        // width: 690px;
+        // height: 45px;
         font-size: 26px;
         line-height: 45px;
     
       }
       .about--tips{
-        margin-left: 39px;
-        margin-right: 630px;
+        // margin-left: 39px;
+        // margin-right: 630px;
     }
     .about--text{
-        width: 690px;
-        height: 60px;
+        // width: 690px;
+        // height: 60px;
         font-family: Roboto;
         font-size: 20px;
         line-height: 30px;
         color: $color-grey;
     }
     .about--btn{
-        width: 91px;
-        height: 45px;
-        margin-left: 39px;
-        margin-right: 638px;
+        // width: 91px;
+        // height: 45px;
+        // margin-left: 39px;
+        // margin-right: 638px;
         margin-top: 60px;
         margin-bottom: 60px;
         transition: color ease .5s;
@@ -145,8 +150,8 @@
       }
     .about--btn{
         width: 160px;
-        margin-left: 275px;
-        margin-right: 800px;
+        // margin-left: 275px;
+        // margin-right: 800px;
         margin-top: 30px;
         text-align: center;
         transition: color ease .5s;
