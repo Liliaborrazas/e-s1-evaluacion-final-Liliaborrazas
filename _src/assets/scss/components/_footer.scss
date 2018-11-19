@@ -2,7 +2,7 @@
 //   margin:0 auto;
   padding: 0px;   
   height: 128px;
-  background-color: $color-blue;
+  background-color: $color-nav;
   position: relative;
   padding-top: 38px;
   padding-bottom: 60px;
@@ -40,8 +40,6 @@
     
 }
 .footer--text{
-    height: 30px;
-    width: 290px;
     font-size: 14px;
     color: $color-white;
     margin-bottom: 30px;
@@ -50,9 +48,18 @@
  }
 
  .heart{
-    color: $color-orange;
+    color: $color-white;
  }
  //Medias
 @media all and (min-width: 768px){
-    
+
+    .footer{
+  background-color: $color-black;
+  padding-left: 30px;
+  padding-right: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  
+}
 }
