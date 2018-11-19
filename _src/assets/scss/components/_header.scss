@@ -9,15 +9,20 @@
 .container{
     margin: 0;
     position: fixed;
-    margin-top: 0px;   
+    z-index: 10; 
+    margin-top: 0px;  
+     
 }
 .container--logo{
+    
     background:#0271bc;
     width: 44px;
     height: 44px;
-    text-align: center;    
+    text-align: center; 
+      
 }
 .icono{
     margin: 14px;
+   
 }
 

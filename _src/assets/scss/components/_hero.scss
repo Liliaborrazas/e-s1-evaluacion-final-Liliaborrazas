@@ -10,24 +10,24 @@
     align-items: center;
     
  }
+ .container--hero{
+    position: absolute;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;  
+}
+ 
 
 .hero--title{
     padding: 0px;
-    width: 290px;
-    height: 110px;
-    margin-top: 284px;
-    margin-left: 14px;
-    margin-right: 14px;
-   
-       
+    width: 290px;     
 }
 .hero--text{
     padding: 0px;
     margin-top: 10px;
-    height: 21px;
-    width: 290px;
     color:$color-white;
-    text-align: center;
     margin-left: 15px;
     margin-right: 15px;
     font-family: RobotoSlab;
@@ -53,37 +53,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 138px;
-    margin-right: 137px;
-    margin-top: 45px;
-
+    margin-bottom: 53px;
+    
 }
 
 //Medias
 @media all and (min-width: 768px){
+    .container--hero{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;  
+        //width: 690px;
+        margin-left: 39px;
+        margin-right: 39px; 
+    }
     .hero--title{
-     width: 690px;
-     height: 212px;
-     margin-top: 384px;   
+       width: 690px;   
     
      }
     .title{
-        font-size: 80px;   
-        
+        font-size: 80px;       
     }
     .hero--text{
-        height: 32px;
-        width: 360px;
+        width: 690px;
         text-align: center;
         font-size: 24px;
-        margin-left: 180px;
-        margin-right: 204px;
-               
+        margin-top: 20px;
+    
     }
     .hero--arrow{
-        margin-left: 340px;
-        margin-right: 362px;
-        margin-top: 45px;
+        margin-bottom: 45px;
+        
     
     }
     
@@ -93,8 +94,8 @@
 @media all and (min-width: 1200px){
     
     .hero--title{
-        width: 730px;
-        height: 264px;
+        // width: 730px;
+        // height: 264px;
         }
      .title{
         font-size: 100px;   
@@ -102,9 +103,9 @@
     }
     
         .hero--arrow{
-        margin-left: 343px;
-        margin-right: 342px;
-        margin-bottom: 120px;
+        // margin-left: 343px;
+        // margin-right: 342px;
+        // margin-bottom: 120px;
         
         }
 }
